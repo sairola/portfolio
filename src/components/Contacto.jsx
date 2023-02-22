@@ -1,6 +1,9 @@
 import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
 
+const APIpublic = process.env.REACT_APP_APIpublic
+const APItemplate = process.env.REACT_APP_APItemplate
+
 const Contacto = () => {
 
     const form = useRef();
@@ -8,7 +11,7 @@ const Contacto = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_5remx2c', 'template_4eqursn', form.current, 'Nk2bGHKmOzYCMegCk')
+      emailjs.sendForm('APItemplate', 'template_4eqursn', form.current, 'APIpublic')
         .then((result) => {
             alert("Mensaje enviado con éxito, gracias por contactarse"  );
         }, (error) => {
@@ -76,3 +79,4 @@ const Contacto = () => {
 };
 
 export default Contacto;
+
