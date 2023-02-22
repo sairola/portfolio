@@ -11,7 +11,7 @@ const Contacto = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('APItemplate', 'template_4eqursn', form.current, 'APIpublic')
+      emailjs.sendForm('service_5remx2c', 'template_4eqursn', form.current, 'Nk2bGHKmOzYCMegCk')
         .then((result) => {
             alert("Mensaje enviado con éxito, gracias por contactarse"  );
         }, (error) => {
