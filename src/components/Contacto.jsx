@@ -5,7 +5,6 @@ const APIpublic = process.env.REACT_APP_APIpublic
 const APItemplate = process.env.REACT_APP_APItemplate
 
 
-
 const Contacto = () => {
 
     const form = useRef();
@@ -81,3 +80,4 @@ const Contacto = () => {
 };
 
 export default Contacto;
+
