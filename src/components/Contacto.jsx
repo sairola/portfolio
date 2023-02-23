@@ -1,9 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
 
-const APIpublic = process.env.REACT_APP_APIpublic
-const APItemplate = process.env.REACT_APP_APItemplate
-
 
 const Contacto = () => {
 
