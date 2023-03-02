@@ -1,13 +1,11 @@
 import "./App.css";
 import React, {useEffect, useState} from "react";
-import Header from "./components/Header";
 import Presentación from "./components/Presentación";
 import Tecnologías from "./components/Tecnologías";
 import Settings from "./hooks/settings/Settings";
 import Proyectos from "./components/Proyectos";
 import Contacto from "./components/Contacto";
-import { BsToggleOn, BsLinkedin, BsGithub } from "react-icons/bs";
-import { BsToggle2Off } from "react-icons/bs";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { GiRocketFlight } from "react-icons/gi";
 
 function App() {

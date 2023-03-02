@@ -6,7 +6,7 @@ import { BsToggle2Off, BsToggleOn } from 'react-icons/bs'
 
 const defaultConfig = {
     
-    theme: 'ligth',
+    theme: 'dark',
     lan: 'es'
 };
 

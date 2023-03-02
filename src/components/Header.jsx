@@ -1,6 +1,4 @@
 import React from 'react'
-import {BsToggleOn} from 'react-icons/bs'
-import { BsToggle2Off } from 'react-icons/bs'
 import {GiRocketFlight} from 'react-icons/gi'
 import Settings from '../hooks/settings/Settings'
 
