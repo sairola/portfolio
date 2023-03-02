@@ -1,6 +1,10 @@
 import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9adb3662e88d027cb7a02b4f61c76a06119da6b6
 const Contacto = () => {
 
     const form = useRef();
